@@ -21,3 +21,11 @@ html {
   background-color: #e579e6;
 }
 /* /header */
+
+/* main */
+.yellow-box {
+  background-color: #e1d67a;
+  height: 550px;
+  margin-top: 25px;
+}
+/* /main */
