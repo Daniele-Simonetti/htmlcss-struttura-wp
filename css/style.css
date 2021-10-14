@@ -13,6 +13,12 @@ html {
   width: 80%;
   margin: 20px auto;
 }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 /* /layout */
 
 /* header */
@@ -28,4 +34,8 @@ html {
   height: 550px;
   margin-top: 25px;
 }
+/* float section of main */
+
+
+
 /* /main */
