@@ -8,9 +8,16 @@ html {
   font-size: 100%;
 }
 
+/* layout */
 .container {
-  height: 100px;
   width: 80%;
   margin: 20px auto;
-  background-color: red;
 }
+/* /layout */
+
+/* header */
+.head-of-page {
+  height: 110px;
+  background-color: #e579e6;
+}
+/* /header */
