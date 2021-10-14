@@ -39,3 +39,12 @@ html {
 
 
 /* /main */
+
+/* footer */
+.end-of-page {
+  background-color: #8801fe;
+  height: 55px;
+  margin-top: 10px;
+}
+/* /footer */
+
