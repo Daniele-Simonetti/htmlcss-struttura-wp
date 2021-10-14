@@ -62,9 +62,10 @@ html {
   width: 50%;
 }
 
-.column-left, {
+.column-left {
   border-left: 0px;
 }
+
 .column-right {
   border-right: 0px;
 }
