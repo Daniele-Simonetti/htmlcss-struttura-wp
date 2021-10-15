@@ -39,16 +39,18 @@ html {
   background-color: #abcfe7;
   margin-top: 25px;
   height: 600px;
-  border-bottom: 20px solid #0086ff;
+  /* border-bottom: 20px solid #0086ff; */
+  padding-bottom: 20px;
 }
 .float-sec-header {
-  border-bottom: 15px solid #0086ff;
+  /* border-bottom: 15px solid #0086ff; */
+  margin-bottom: 15px;
   height: 100px;
   background-color: #abcfe7;
 }
 
 [class*="column"] {
-  border: 8px solid #0086ff;
+  /* border: 8px solid #0086ff; */
   float: left;
   height: 500px;
 }
@@ -59,7 +61,8 @@ html {
 }
 
 .column-middle {
-  width: 50%;
+  width: calc(50% - 60px);
+  margin: 0 30px;
 }
 
 .column-left {
